@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeConsoleApp", "PalindromeConsoleApp\PalindromeConsoleApp.csproj", "{B1D8B6D2-BAFD-408E-A8F1-D6ABCA32DBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeCLib", "PalindromeCLib\PalindromeCLib.csproj", "{12533526-D501-408E-8D4D-F845AB308AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome.UnitTest", "Palindrome.Test\Palindrome.UnitTest.csproj", "{5FA066CE-3077-40D8-8864-46590CC58335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome.IntegrationTest", "Palindrome.IntegrationTest\Palindrome.IntegrationTest.csproj", "{2045180B-D1FE-4916-B8AA-4193E9FA592D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D8B6D2-BAFD-408E-A8F1-D6ABCA32DBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D8B6D2-BAFD-408E-A8F1-D6ABCA32DBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D8B6D2-BAFD-408E-A8F1-D6ABCA32DBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D8B6D2-BAFD-408E-A8F1-D6ABCA32DBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12533526-D501-408E-8D4D-F845AB308AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12533526-D501-408E-8D4D-F845AB308AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12533526-D501-408E-8D4D-F845AB308AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12533526-D501-408E-8D4D-F845AB308AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA066CE-3077-40D8-8864-46590CC58335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA066CE-3077-40D8-8864-46590CC58335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA066CE-3077-40D8-8864-46590CC58335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA066CE-3077-40D8-8864-46590CC58335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2045180B-D1FE-4916-B8AA-4193E9FA592D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2045180B-D1FE-4916-B8AA-4193E9FA592D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2045180B-D1FE-4916-B8AA-4193E9FA592D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2045180B-D1FE-4916-B8AA-4193E9FA592D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
