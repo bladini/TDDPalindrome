@@ -124,5 +124,15 @@ namespace Palindrome.Test
             int actual = _palindromeFinder.CharacterCount(value);
         }
         #endregion Negative Cases
+
+        #region Impossible Cases
+        [TestMethod]
+        public void impossibleTestWillFail()
+        {
+            
+            // Assert
+            Assert.AreEqual(0, 1);
+        }
+        #endregion
     }
 }
