@@ -12,7 +12,7 @@ namespace Palindrome
         static void Main(string[] args)
         {
             PalindromeFinder p = new PalindromeFinder();
-            Console.Write("Enter Value : ");
+            Console.Write("Enter a new word: ");
             var value =Console.ReadLine();
             try
             {
