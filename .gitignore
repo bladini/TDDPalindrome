@@ -11,7 +11,8 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
+# Testing to commenting out the debug files in order to be able to run the unit tests with TC
+# [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -19,8 +20,8 @@ x64/
 x86/
 build/
 bld/
-#Testing to commenting out the bin files in order to be able to run the tests.
-#[Bb]in/
+# Testing to commenting out the bin files in order to be able to run the unit tests with TC
+# [Bb]in/
 [Oo]bj/
 
 # Visual Studo 2015 cache/options directory
